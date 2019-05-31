@@ -129,7 +129,7 @@ extension SearchDestinationViewController: UITableViewDelegate
 {
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     if fullMode {
-      // show drive proposal
+      performSegue(withIdentifier: "showDriveProposal", sender: nil)
     } else {
       delegate?.didTapUserAddresses(index: indexPath.row)
     }

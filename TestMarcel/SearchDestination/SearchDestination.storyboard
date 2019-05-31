@@ -338,11 +338,20 @@
                         <outlet property="locationTextfield" destination="igC-Qk-xUA" id="Mhh-LJ-J5M"/>
                         <outlet property="searchTableView" destination="oXV-j3-e7E" id="ynk-ae-N8h"/>
                         <outlet property="tableView" destination="tm0-La-tAE" id="s7B-rH-Ado"/>
+                        <segue destination="eoo-0f-lNQ" kind="show" identifier="showDriveProposal" id="s1l-fU-01G"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PBV-tK-9iP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="951.20000000000005" y="74.212893553223395"/>
+        </scene>
+        <!--DriveProposal-->
+        <scene sceneID="IGH-M4-wxz">
+            <objects>
+                <viewControllerPlaceholder storyboardName="DriveProposal" id="eoo-0f-lNQ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CVu-zp-XG2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1730" y="37"/>
         </scene>
     </scenes>
     <resources>
