@@ -1,0 +1,6 @@
+module Pods_MarcelFrameworks {
+  umbrella header "Pods-MarcelFrameworks-umbrella.h"
+
+  export *
+  module * { export * }
+}
